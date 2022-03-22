@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+
+head {
+    color: #2A2F33;
+    color: #F4655F;
+    color: #E1493E;
+    color: #8ABA56;
+    color: #5B4282;
+    color: #FF8932;
+    color: #19B6E9;
+    color: #E84C8B;
+}
+
+body > header:first-child {
+    background-color: #046DD5;
+    color:#FFF;
+    padding: 1em;
+}
+
+body > header:first-child h1 a {
+    font-weight: bold;
+}
+
+body > header:first-child a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Poppins';
+}
+
+#signup a:first-child {
+    border-right: 1px solid #FFF;
+}
+
+#signup a {
+    padding: 0 1em 0 1em;
+    margin-bottom: 1em;
+}
+
+
+
+#menu input, #menu label {
+    display: none;
+}
+
+#menu ul li {
+    text-align: center;
+    color: #000;
+    list-style: none;
+    padding: 10px;
+}
+
+#menu a {
+    color: #000;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+#menu ul li:nth-child(1) {
+    border-top: 0.3em solid #E1493E;
+}
+
+#menu ul li:nth-child(2) {
+    border-top: 0.3em solid #8ABA56;
+}
+
+#menu ul li:nth-child(3) {
+    border-top: 0.3em solid #5B4282;
+}
+
+#menu ul li:nth-child(4) {
+    border-top: 0.3em solid #FF8932;
+}
+
+#menu ul li:nth-child(5) {
+    border-top: 0.3em solid #19B6E9;
+}
+
+#menu ul li:nth-child(6) {
+    border-top: 0.3em solid #E84C8B;
+}
+
+
+#related {
+    background-color: #2A2F33;
+    padding: 1em;
+    color: #FFF;
+    font-family: 'Lora';
+    font-size: small ;
+}
+
+#related a {
+    color:#FFF;
+    text-decoration: none;
+    font-family: 'Poppins';
+
+}
+
+#news article {
+    position: relative;
+}
+
+#news header a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Poppins';
+    text-shadow: 3px 3px 3px #000;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 9em;
+}
+
+#news p {
+    padding:0 1em 0 1em;
+}
+
+#news p:first-of-type::first-letter {
+    font-size: 2em;
+}
+
+article footer {
+    background-color: #E1493E;
+    color: #FFF;
+    padding: 1em;
+    font-family: 'Lora';
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+footer a {
+    color: #FFF;
+}
+
+.date {
+    padding: 1em;
+}
+
+body > footer p {
+    background-color: #000;
+    color: #FFF;
+    padding: 1em;
+    border: 0.5em;
+    font-family: 'Lora';
+    font-size: smaller;
+    font-weight: lighter;
+    margin: 1em 0;
+}

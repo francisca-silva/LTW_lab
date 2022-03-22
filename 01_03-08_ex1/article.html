@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Online Newspaper</title>
+   </head>
+   <body>
+    <header>
+        <h1><a href="all.html">Daily Newspaper</a></h1>
+        <a href="all.html"><img src="https://i.picsum.photos/id/511/200/300.jpg?hmac=3pjxomHmNfWivxE47hYNY3VdnJTTJtcRJmQ3ihqJcBA" alt="Logo of the Newspaper"></a>
+        
+    </header>
+    <nav>
+        <ul>
+           <li><a href="section.html">Sports</a></li> 
+           <li><a href="section.html">Politics</a></li> 
+           <li><a href="section.html">Local</a></li> 
+        </ul>
+    </nav>
+    <article>
+        <section class = "Article Content">
+            <header><h3>Title</h3></header>
+            <p>Paragraph</p>
+            <a href="all.html"><img src="https://i.picsum.photos/id/88/200/300.jpg?hmac=JmiMN7iyW4Saka82S4HzDvbOjMSB2k9NwTN29MHWqa4" alt="Image"></a>
+            <p>Paragraph</p>
+            <footer>
+                <p>Author name</p>
+                <p class = "date">08/03/2022 12:14</p>
+                <p>&#169 Copyright Notice</p>
+            </footer>
+        </section>
+        
+        <section class = "Comments">
+            <header><h2>Comments</h2></header>
+
+            <article class = "Comment">
+                <header>
+                    <h1>Username1</h1>
+                    <p class = "date">08/03/2022 15:14</p>
+                    <p>I love this!</p>
+                </header>
+            </article>
+            
+            <article class = "Comment">
+                <header>
+                    <h1>Username2</h1>
+                    <p class = "date">08/03/2022 15:14</p>
+                    <p>Me too!</p>
+                </header>
+            </article>
+
+            <article class = "Comment">
+                <header>
+                    <h1>Username3</h1>
+                    <p class = "date">08/03/2022 15:14</p>
+                    <p>Very good!</p>
+                </header>
+            </article>
+
+            <form action="save.php" method="dialog">
+                <h4>Add a comment</h4>
+                Username: <input type="text" name="username" placeholder="your username" required>
+                Comment: <input type="text" name="comment text" placeholder="your comment" required>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </article>
+    
+    <footer>
+        
+        <p>&#169 Copyright Notice</p>
+    </footer>
+   </body>
+</html>
