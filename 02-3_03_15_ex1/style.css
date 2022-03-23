@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
 
-head {
-    color: #2A2F33;
-    color: #F4655F;
-    color: #E1493E;
-    color: #8ABA56;
-    color: #5B4282;
-    color: #FF8932;
-    color: #19B6E9;
-    color: #E84C8B;
-}
-
 body > header:first-child {
     background-color: #046DD5;
     color:#FFF;
@@ -37,8 +26,6 @@ body > header:first-child a {
     margin-bottom: 1em;
 }
 
-
-
 #menu input, #menu label {
     display: none;
 }
@@ -48,6 +35,11 @@ body > header:first-child a {
     color: #000;
     list-style: none;
     padding: 10px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
 }
 
 #menu a {
@@ -135,16 +127,33 @@ footer a {
 }
 
 .date {
-    padding: 1em;
+    padding: 0 1em;
 }
 
 body > footer p {
-    background-color: #000;
+    background-color: #2A2F33;
     color: #FFF;
     padding: 1em;
     border: 0.5em;
     font-family: 'Lora';
     font-size: smaller;
     font-weight: lighter;
-    margin: 1em 0;
+    margin: 1em 0 0 0;
+}
+
+.author::before {
+    content: "By ";
+}
+
+.comments::after {
+    content: " comments";
+}
+
+a:hover {
+    background-color: #2A2F33;
+    color: #FFF;
+}
+
+article img {
+    width: 100%;
 }
