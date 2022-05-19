@@ -1,0 +1,30 @@
+@media (max-width: 60em) {
+    #related {
+      display: none;
+    }
+}
+
+@media (max-width: 30em) {
+    #menu ul {
+        display: none;
+    }
+  
+    /* Style navigation menu links */
+    #menu a {
+        color: white;
+        padding: 1em;
+        text-decoration: none;
+        font-size: 1em;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    #menu a#hamburger {
+        background: #2A2F33;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+}

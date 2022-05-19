@@ -37,6 +37,14 @@ body > header:first-child a {
     padding: 10px;
 }
 
+#menu ul li:hover {
+    background-color: #2A2F33;
+}
+
+#menu ul li:hover a {
+    color: #FFF;
+}
+
 #menu ul {
     margin: 0;
     padding: 0;

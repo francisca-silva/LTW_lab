@@ -1,0 +1,39 @@
+#comments h1 {
+    font-family: 'Lora';
+}
+
+.user {
+    font-style: italic;
+}
+
+.user::after {
+    content: " said:";
+    font-style: normal;
+}
+
+#news .comment > p, form {
+    display: block;
+    padding: 1em;
+    background-color: rgb(225,225, 225);
+}
+
+.comment > p::before {
+    content: "\201C";
+    color:darkgray;
+    font-size:large;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+}
+
+form h2 {
+    grid-area: 1/1/ span 1/ span 2;
+}
+
+form label:nth-child(4) {
+    grid-area: 3/1/span 1/span 2;
+    width: 100%;
+}
